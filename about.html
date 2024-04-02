@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Jason Smith "TheSm1thy" | Software Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .mini-about {
+        background: white;
+        margin: 15px;
+        padding: 10px;
+        border-radius: 10px;
+        display: inline-flex;
+        flex-direction: row;
+        height: 220px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 25px;
+        border-style: solid;
+        border-width: 5px;
+        border-radius: 10px;
+      }
+
+      div.bio {
+        margin-right: 50px;
+        text-align: center;
+      }
+
+      .minitext {
+        padding-top: 20px;
+        width: 250px;
+      }
+
+      div.gallery {
+        margin: 25px;
+        padding-top: 25px;
+        border: 5px solid #ccc;
+        float: left;
+        
+      }
+
+      div.desc {
+        padding: 15px;
+        text-align: center;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 20px;
+      }
+
+      .imgcrop {
+        object-fit: cover;
+        height: 600px;
+      }
+
+      .pictures {
+        color: white;
+        background: black;
+        margin: 15px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 10px;
+        border-style: solid;
+        border-width: 5px;
+        border-color: white;
+      }
+
+      .info-section {
+        background: white;
+        margin: 15px;
+        padding: 30px;
+        text-align: center;
+        border-radius: 10px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 25px;
+        border-style: solid;
+        border-width: 5px;
+        border-radius: 10px;
+    
+      }
+
+      div.left {
+        display: inline-flex;
+        flex-direction: column;
+        margin-left: 5px;
+        width: 49%;
+      }
+
+      div.right {
+        display: inline-flex;
+        flex-direction: column;
+        margin-left: 5px;
+        width: 49%;
+        position: absolute;
+      }
+
+      .portrait {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+        border-radius: 100px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a class="pages" href="index.html">Home</a></li>
+          <li><a class="pages" href="about.html">About Me</a></li>
+          <li><img class="minilogo" src="images/scloudLogo.png" alt="thesmithy cloud logo" /></li>
+          <li><a class="pages" href="education.html">Education</a></li>
+          <li><a class="pages" href="portfolio.html">Portfolio</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="left">
+      <section class="mini-about">
+        <div class="bio">
+        <img
+          class="portrait"
+          src="images/senior-portrait-pic.png"
+          alt="senior portrait"
+        />
+      </div>
+      <div class="bio">
+        <p class="minitext">
+          Jason Smith<br />
+          23 Years Old<br />
+          Software Developer<br />
+          CT, USA
+        </p>
+      </div>
+      </section>
+      <section class="pictures">
+        <div class="gallery">
+          <img src="images/ccscne.png" alt="CCSCNE Group Photo" />
+          <div class="desc">Presenting at CCSCNE</div>
+        </div>
+        <div class="gallery">
+          <img src="images/track-pic.png" alt="Track Picture" />
+          <div class="desc">New Haven T&F</div>
+        </div>
+        <div class="gallery">
+          <img class="imgcrop"src="images/snowboarding-pic.png" alt="Snowboarding Pictire" />
+          <div class="desc">Out On The Slopes</div>
+        </div>
+        <div class="gallery">
+          <img class="imgcrop" src="images/LoLWorlds-pic.png" alt="League Worlds Picture" />
+          <div class="desc">LoL Worlds Tournament 2022</div>
+        </div>
+      </section>
+    </div>
+    <div class="right">
+      <section class="info-section">
+        <h1>More About Me</h1>
+        <p>
+          I graduated from the University of New Haven in 2023 with my Bachelors
+          degree in computer science. While studying there I also competed in
+          Division II sports running Track & Field as well as a season of
+          Cross-Country. Durring my senior year for my capstone project I
+          dreamed up the idea to create a VR game that can be controlled with
+          your mind, and was able to come together with my partners and turn
+          this idea into a REALITY. We were also fortunate to be able to present
+          our project at CCSCNE and GameDev CT. One of my favorite hobbies to
+          do/watch is sports like weightlifting, snowboarding, and basketball.
+          Then when I have free time I usually spend it playing video games
+          alone or online with friends.
+          <br />
+          <br />
+          My career goal is to design and create software that users can enjoy
+          and utilize regularly, wether that be a website, an application, or
+          even a game. I am a great team player and love collaborating with
+          teammates but I am also willing to take the lead on a project if
+          neccessary. I plan on creating my own projects for my hobbies like an
+          application that will suggest songs/albums to listen to based on
+          multiple factors and then connect to your playlist to save/listen to
+          the songs. If you want to find out more about my projects you can
+          check out my portfolio page.
+        </p>
+      </section>
+    </div>
+
+    <footer><div class="foot">
+      © TheSm1thy
+    <a class="socials" href="https://github.com/Thesm1thy">
+      <img class="git" src="images/githublogo.png" alt="github logo">
+    </a>
+    <a class="socials" href="https://www.linkedin.com/in/jason-smith-5aa15b241/">
+      <img class="linked" src="images/linkedinlogo.png" alt="linkedin logo">
+    </a>
+    </div>
+  </footer>
+  </body>
+</html>
